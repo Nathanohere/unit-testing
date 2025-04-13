@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Unit testing",
+  "license": "ISC",
+  "author": "Nathan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
